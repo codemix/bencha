@@ -1,0 +1,3 @@
+#!/usr/bin/env node
+var Bencha = require("../lib");
+Bencha.CLI.run(process.argv.slice(2));
