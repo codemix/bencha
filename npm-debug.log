@@ -1,0 +1,125 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@1.1.62
+3 info using node@v0.9.0
+4 verbose publish [ '.' ]
+5 verbose read json /home/charles/projects/bench/package.json
+6 verbose cache add [ '.', null ]
+7 silly cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { pathname: '.', path: '.', href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . /home/charles/.npm/3a52ce78-.lock
+11 verbose read json package.json
+12 verbose tar pack [ '/home/charles/tmp/npm-28037/1366987667392-0.650381786050275/tmp.tgz',
+12 verbose tar pack   '.' ]
+13 verbose tarball /home/charles/tmp/npm-28037/1366987667392-0.650381786050275/tmp.tgz
+14 verbose folder .
+15 info prepublish bencha@0.0.1
+16 silly lockFile 48b2936c-667392-0-650381786050275-tmp-tgz /home/charles/tmp/npm-28037/1366987667392-0.650381786050275/tmp.tgz
+17 verbose lock /home/charles/tmp/npm-28037/1366987667392-0.650381786050275/tmp.tgz /home/charles/.npm/48b2936c-667392-0-650381786050275-tmp-tgz.lock
+18 silly lockFile 48b2936c-667392-0-650381786050275-tmp-tgz /home/charles/tmp/npm-28037/1366987667392-0.650381786050275/tmp.tgz
+19 verbose tar unpack /home/charles/tmp/npm-28037/1366987667392-0.650381786050275/tmp.tgz
+20 silly lockFile 6e75f9b1-667392-0-650381786050275-package /home/charles/tmp/npm-28037/1366987667392-0.650381786050275/package
+21 verbose lock /home/charles/tmp/npm-28037/1366987667392-0.650381786050275/package /home/charles/.npm/6e75f9b1-667392-0-650381786050275-package.lock
+22 silly gunzTarPerm modes [ '755', '644' ]
+23 silly gunzTarPerm extractEntry package.json
+24 silly gunzTarPerm extractEntry .npmignore
+25 silly gunzTarPerm extractEntry README.md
+26 silly gunzTarPerm extractEntry bench/index.coffee
+27 silly gunzTarPerm extractEntry test/index.coffee
+28 silly gunzTarPerm extractEntry Makefile
+29 silly gunzTarPerm extractEntry bin/bencha
+30 silly gunzTarPerm extractEntry lib/index.js
+31 silly gunzTarPerm extractEntry lib/history.js
+32 silly gunzTarPerm extractEntry lib/result.js
+33 silly gunzTarPerm extractEntry lib/runner.js
+34 silly gunzTarPerm extractEntry lib/cli.js
+35 silly gunzTarPerm extractEntry lib/reporters/index.js
+36 silly gunzTarPerm extractEntry lib/reporters/spec.js
+37 silly gunzTarPerm extractEntry lib/reporters/base.js
+38 silly gunzTarPerm extractEntry src/runner.coffee
+39 silly gunzTarPerm extractEntry src/reporters/base.coffee
+40 silly gunzTarPerm extractEntry src/reporters/spec.coffee
+41 silly gunzTarPerm extractEntry src/reporters/index.coffee
+42 silly gunzTarPerm extractEntry src/history.coffee
+43 silly gunzTarPerm extractEntry src/cli.coffee
+44 silly gunzTarPerm extractEntry src/index.coffee
+45 verbose read json /home/charles/tmp/npm-28037/1366987667392-0.650381786050275/package/package.json
+46 silly lockFile 6e75f9b1-667392-0-650381786050275-package /home/charles/tmp/npm-28037/1366987667392-0.650381786050275/package
+47 verbose from cache /home/charles/tmp/npm-28037/1366987667392-0.650381786050275/package/package.json
+48 verbose tar pack [ '/home/charles/.npm/bencha/0.0.1/package.tgz',
+48 verbose tar pack   '/home/charles/tmp/npm-28037/1366987667392-0.650381786050275/package' ]
+49 verbose tarball /home/charles/.npm/bencha/0.0.1/package.tgz
+50 verbose folder /home/charles/tmp/npm-28037/1366987667392-0.650381786050275/package
+51 silly lockFile 5437b5a2-les-npm-bencha-0-0-1-package-tgz /home/charles/.npm/bencha/0.0.1/package.tgz
+52 verbose lock /home/charles/.npm/bencha/0.0.1/package.tgz /home/charles/.npm/5437b5a2-les-npm-bencha-0-0-1-package-tgz.lock
+53 silly lockFile 5437b5a2-les-npm-bencha-0-0-1-package-tgz /home/charles/.npm/bencha/0.0.1/package.tgz
+54 silly lockFile a222d312-charles-npm-bencha-0-0-1-package /home/charles/.npm/bencha/0.0.1/package
+55 verbose lock /home/charles/.npm/bencha/0.0.1/package /home/charles/.npm/a222d312-charles-npm-bencha-0-0-1-package.lock
+56 silly lockFile a222d312-charles-npm-bencha-0-0-1-package /home/charles/.npm/bencha/0.0.1/package
+57 verbose tar unpack /home/charles/.npm/bencha/0.0.1/package.tgz
+58 silly lockFile a222d312-charles-npm-bencha-0-0-1-package /home/charles/.npm/bencha/0.0.1/package
+59 verbose lock /home/charles/.npm/bencha/0.0.1/package /home/charles/.npm/a222d312-charles-npm-bencha-0-0-1-package.lock
+60 silly gunzTarPerm modes [ '755', '644' ]
+61 silly gunzTarPerm extractEntry package.json
+62 silly gunzTarPerm extractEntry .npmignore
+63 silly gunzTarPerm extractEntry README.md
+64 silly gunzTarPerm extractEntry bench/index.coffee
+65 silly gunzTarPerm extractEntry test/index.coffee
+66 silly gunzTarPerm extractEntry Makefile
+67 silly gunzTarPerm extractEntry bin/bencha
+68 silly gunzTarPerm extractEntry lib/index.js
+69 silly gunzTarPerm extractEntry lib/history.js
+70 silly gunzTarPerm extractEntry lib/result.js
+71 silly gunzTarPerm extractEntry lib/runner.js
+72 silly gunzTarPerm extractEntry lib/cli.js
+73 silly gunzTarPerm extractEntry lib/reporters/index.js
+74 silly gunzTarPerm extractEntry lib/reporters/spec.js
+75 silly gunzTarPerm extractEntry lib/reporters/base.js
+76 silly gunzTarPerm extractEntry src/runner.coffee
+77 silly gunzTarPerm extractEntry src/reporters/base.coffee
+78 silly gunzTarPerm extractEntry src/reporters/spec.coffee
+79 silly gunzTarPerm extractEntry src/reporters/index.coffee
+80 silly gunzTarPerm extractEntry src/history.coffee
+81 silly gunzTarPerm extractEntry src/cli.coffee
+82 silly gunzTarPerm extractEntry src/index.coffee
+83 verbose read json /home/charles/.npm/bencha/0.0.1/package/package.json
+84 silly lockFile a222d312-charles-npm-bencha-0-0-1-package /home/charles/.npm/bencha/0.0.1/package
+85 silly shasum updated bytes 10691
+86 info shasum 59f7baea8253c0ced3cfbd5cab76a4ec83124504
+86 info shasum /home/charles/.npm/bencha/0.0.1/package.tgz
+87 verbose from cache /home/charles/.npm/bencha/0.0.1/package/package.json
+88 verbose chmod /home/charles/.npm/bencha/0.0.1/package.tgz 644
+89 verbose chown /home/charles/.npm/bencha/0.0.1/package.tgz [ 1000, 1000 ]
+90 silly lockFile 3a52ce78- .
+91 silly publish { name: 'bencha',
+91 silly publish   description: 'A simple mocha-esque ui for benchmark.js',
+91 silly publish   version: '0.0.1',
+91 silly publish   dependencies: { benchmark: '*', optimist: '*', 'coffee-script': '*' },
+91 silly publish   bin: { bencha: './bin/bencha' },
+91 silly publish   readme: '# Bencha\n\nMocha-esque UI for the excellent `benchmark.js` JavaScript benchmarking library.\nRecords benchmark history and flags performance improvements and regressions.\n\n# Installation\n\n    npm install bencha -g\n\n# Writing Benchmarks\n\nCreate a `bench` directory in your project. In the `bench` directory, create\nan `index.js` (or `index.coffee`), e.g.\n\n    compare("RegExp vs String::indexOf", function(){\n      var input = "demo.string"\n      benchmark("RegExp", function(){\n        /(\\.)/.test(input);\n      });\n      benchmark("String::indexOf", function(){\n        input.indexOf(".") > -1;\n      });\n    });\n\n    suite("My Feature", function(){\n      benchmark("foo() no arguments", function(){\n        foo();\n      });\n      benchmark("foo() with arguments", function(){\n        foo(true, false);\n      });\n      benchmark("bar()", function(){\n        bar()\n      });\n    });\n\nThe above defines two benchmark suites, the first is a comparison suite, comparison suites compare\nthe results of each benchmark within the suite, declaring one the winner. The second declaration defines\na suite containing three separate benchmarks that are related but not explicitly compared with each other.\n\nTo split your benchmarks into seperate files, simply `require()` them from the main `index.js` file.\n\n\n# Running Benchmarks\n\nFrom your project root (or the directory containing the `bench` folder), run:\n\n    bencha\n\nThis will run the benchmarks with the default `spec` reporter, recording the results in `bench/history.json`\n\nRun `bencha --help` for more options.\n\n\n# Licence\n\nMIT\n\n',
+91 silly publish   _id: 'bencha@0.0.1',
+91 silly publish   dist: { shasum: '59f7baea8253c0ced3cfbd5cab76a4ec83124504' } }
+92 verbose url raw bencha
+93 verbose url resolving [ 'https://registry.npmjs.org/', './bencha' ]
+94 verbose url resolved https://registry.npmjs.org/bencha
+95 info trying registry request attempt 1 at 15:47:47
+96 http PUT https://registry.npmjs.org/bencha
+97 http 409 https://registry.npmjs.org/bencha
+98 verbose url raw bencha
+99 verbose url resolving [ 'https://registry.npmjs.org/', './bencha' ]
+100 verbose url resolved https://registry.npmjs.org/bencha
+101 info trying registry request attempt 1 at 15:47:48
+102 http GET https://registry.npmjs.org/bencha
+103 http 200 https://registry.npmjs.org/bencha
+104 error publish fail Cannot publish over existing version.
+104 error publish fail Bump the 'version' field, set the --force flag, or
+104 error publish fail     npm unpublish 'bencha@0.0.1'
+104 error publish fail and try again
+105 error System Linux 3.2.0-37-generic
+106 error command "node" "/usr/local/bin/npm" "publish"
+107 error cwd /home/charles/projects/bench
+108 error node -v v0.9.0
+109 error npm -v 1.1.62
+110 error code EPUBLISHCONFLICT
+111 verbose exit [ 1, true ]

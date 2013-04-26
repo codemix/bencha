@@ -1,7 +1,7 @@
 {
   "name": "bencha",
   "description": "A simple mocha-esque ui for benchmark.js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "dependencies": {
     "benchmark": "*",
     "optimist": "*",
