@@ -9,7 +9,7 @@ redis = (require "redis").createClient()
 Demo
 ###
 
-compare.only "redis get vs set", ->
+compare "redis get vs set", ->
   after ->
     redis.quit()
   benchmark "set key", (done) ->

@@ -18,7 +18,7 @@ run = (argv = process.argv) ->
     require dir
     runner.run()
   if argv.tag
-    fn tag
+    fn argv.tag
   else if argv.vcs
     loadTag argv.vcs, (err, tag) ->
       throw err if err

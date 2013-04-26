@@ -73,7 +73,7 @@ module.exports = class History
   Return true if the given benchmark is a performance regression, within
   the given error margin
   ###
-  isRegression: (suite, benchmark, errorMarginInPercent = 0.00005) ->
+  isRegression: (suite, benchmark, errorMarginInPercent = 2.5) ->
     previous = @findPreviousRuns(suite, benchmark, 1).shift()
     return false unless previous?
     difference = benchmark.hz - previous.hz
@@ -84,7 +84,7 @@ module.exports = class History
   Return true if the given benchmark is a performance improvement, within
   the given error margin
   ###
-  isImprovement: (suite, benchmark, errorMarginInPercent = 0.000005) ->
+  isImprovement: (suite, benchmark, errorMarginInPercent = 2.5) ->
     previous = @findPreviousRuns(suite, benchmark, 1).shift()
     return false unless previous?
     difference = benchmark.hz - previous.hz
