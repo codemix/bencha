@@ -1,9 +1,13 @@
 {
-  "name": "Bench",
+  "name": "bencha",
+  "description": "A simple mocha-esque ui for benchmark.js",
   "version": "0.0.1",
   "dependencies": {
     "benchmark": "*",
     "optimist": "*",
     "coffee-script": "*"
+  },
+  "bin": {
+    "bencha": "./bin/bencha"
   }
 }
